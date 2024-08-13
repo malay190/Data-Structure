@@ -1,0 +1,25 @@
+//push_back(value) : Adds an element to the end of the vector.
+std::vector<int> vec;
+vec.push_back(10); // Adds 10 to the end of vec
+
+// pop_back() : Removes the last element from the vector.
+std::vector<int> vec = {10, 20, 30};
+vec.pop_back(); // Removes the last element (30) from vec
+
+// size() : Returns the number of elements in the vector.
+std::vector<int> vec = {10, 20, 30};
+std::cout << vec.size(); // Outputs 3
+
+// empty() : Checks whether the vector is empty.
+std::vector<int> vec;
+if (vec.empty()) {
+    std::cout << "Vector is empty!";
+}
+
+// clear() : Removes all elements from the vector, making it empty.
+std::vector<int> vec = {10, 20, 30};
+vec.clear(); // Removes all elements from vec
+
+// at(index) : Returns a reference to the element at the specified index with bounds checking.
+std::vector<int> vec = {10, 20, 30};
+std::cout << vec.at(1); // Outputs 20

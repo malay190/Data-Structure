@@ -1,0 +1,19 @@
+//create an empty vector
+std::vector<int> vec;
+
+//Initialization with a Specific Size
+std::vector<int> vec(10); // Creates a vector with 10 elements, all initialized to 0
+
+//Initialization with a Specific Size and Value
+std::vector<int> vec(10, 5); // Creates a vector with 10 elements, all initialized to 5
+
+// Initialization Using an Initializer List
+std::vector<int> vec = {1, 2, 3, 4, 5};
+std::vector<int> vec{1, 2, 3, 4, 5};
+
+//Range Initialization
+std::vector<int> vec1 = {1, 2, 3, 4, 5};
+std::vector<int> vec2(vec1.begin(), vec1.end()); // vec2 contains elements from vec1
+
+
+
